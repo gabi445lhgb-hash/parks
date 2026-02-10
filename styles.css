@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 50px;
+    flex-direction: column;
+}
+
+.container h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 38px;
+}
+
+.container input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #00ff55;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-image: url(Palmeiras_logo.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+}
