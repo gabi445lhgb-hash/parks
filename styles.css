@@ -23,6 +23,11 @@ body {
     font-size: 38px;
 }
 
+img {
+
+    height: 20vh;
+}
+
 .container input {
     margin: 10px;
     padding: 10px;
